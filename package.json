@@ -1,0 +1,21 @@
+{
+  "name": "lbcam-cli",
+  "version": "1.0.0",
+  "description": "A cli to run the lameboy_camera image transformation pipeline in the command line",
+  "main": "src/index.js",
+  "dependencies": {
+    "pngjs": "^6.0.0",
+    "yargs": "^16.2.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "lameboy",
+    "lameboy camera",
+    "gameboy camera",
+    "cli",
+    "dithering"
+  ],
+  "license": "MIT"
+}
