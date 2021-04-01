@@ -3,10 +3,11 @@ A cli to run the lameboy_camera image transformation pipeline in the command lin
 
 This project is based on [https://github.com/JakeHL/lameboy_camera/](https://github.com/JakeHL/lameboy_camera/)
 
-## running the script
-```
-node src/index.js *.png [optional parameters]
-```
+## setup and running
+* You need [https://nodejs.org/](node.js) installed
+* check out this repo
+* run `npm i` in the repo folder
++ run the script `node src/index.js *.png [optional parameters]`
 
 ## optional parameters
 `--brightness=n` value between -100 and 100  
